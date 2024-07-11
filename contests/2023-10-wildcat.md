@@ -176,3 +176,19 @@ address escrow = IWildcatSanctionsSentinel(sentinel).createEscrow(
 +         accountAddress,
           address(this)
 ```
+
+## [H-02] Missing function to close a market.
+
+### Vulnerability details
+
+Market has a function `closeMarket()` that terminates a vault. The vault APR is set to 0% and the borrower is required to make a full return of all outstanding assets. Borrower may want to exercise this function in an event of lenders not withdrawing their assets and the borrower paying to much interests. But in current implementation there is no way to call this function.
+
+```solidity
+function closeMarket() external onlyController nonReentrant {
+```
+
+`closeMarket()` function has `onlyController` modifier, which means that it can only be called from a controller that deployed this market. In the controller contract there is no function that calls `closeMarket()`, which means there is no way to close the market.
+
+### Recommended Mitigation Steps
+
+Implement a way to close market, or change the modifier to onlyBorrower, that way borrower will be able to call it directly and not from controller.
