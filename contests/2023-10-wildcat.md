@@ -1,13 +1,13 @@
-# Venus Prime
+# The Wildcat Protocol
 
 The code under review can be found in [2023-10-wildcat](https://github.com/code-423n4/2023-10-wildcat).
 
 ## Findings summary
 
-| ID       | Title                                                         | Severity |
-| -------- | ------------------------------------------------------------- | -------- |
-| [H-01]() | Borrower will steal lender's funds if lender gets sanctioned. | High     |
-| [H-02]() | Missing function to close a market.                           | High     |
+| ID                                                                                                                                                  | Title                                                         | Severity |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------- |
+| [H-01](https://github.com/kazantseff/audits/blob/main/contests/2023-10-wildcat.md#h-01-borrower-will-steal-lenders-funds-if-lender-gets-sanctioned) | Borrower will steal lender's funds if lender gets sanctioned. | High     |
+| [H-02](https://github.com/kazantseff/audits/blob/main/contests/2023-10-wildcat.md#h-02-missing-function-to-close-a-market)                          | Missing function to close a market.                           | High     |
 
 ## [H-01] Borrower will steal lender's funds if lender gets sanctioned.
 
