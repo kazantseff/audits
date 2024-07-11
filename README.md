@@ -13,7 +13,7 @@ sl1's Portfolio
 |                                         Contest                                         | High risk | Medium risk | Ranking |                                  Security report                                   |
 | :-------------------------------------------------------------------------------------: | :-------: | :---------: | :-----: | :--------------------------------------------------------------------------------: |
 |                [Dopex](https://code4rena.com/contests/2023-08-dopex#top)                |     1     |      0      |    -    | [Report](https://github.com/kazantseff/audits/blob/main/contests/2023-08-dopex.md) |
-|           [Venus Prime](https://code4rena.com/audits/2023-09-venus-prime#top)           |     1     |      0      |    -    |                                     [Report]()                                     |
+|           [Venus Prime](https://code4rena.com/audits/2023-09-venus-prime#top)           |     1     |      0      |    -    | [Report](https://github.com/kazantseff/audits/blob/main/contests/2023-09-venus.md) |
 |  [The Wildcat Protocol](https://code4rena.com/audits/2023-10-the-wildcat-protocol#top)  |     2     |      0      |    -    |                                     [Report]()                                     |
 |               [NextGen](https://code4rena.com/audits/2023-10-nextgen#top)               |     2     |      0      |    -    |                                     [Report]()                                     |
 | [Ethereum Credit Guild](https://code4rena.com/audits/2023-12-ethereum-credit-guild#top) |     2     |      2      | 38/126  |                                     [Report]()                                     |
