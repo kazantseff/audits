@@ -2,7 +2,7 @@
 
 The code under review can be found in [2023-10-wildcat](https://github.com/code-423n4/2023-10-wildcat).
 
-## Findings summary
+## Findings Summary
 
 | ID                                                                                                                                                  | Title                                                         | Severity |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------- |
@@ -11,7 +11,7 @@ The code under review can be found in [2023-10-wildcat](https://github.com/code-
 
 ## [H-01] Borrower will steal lender's funds if lender gets sanctioned.
 
-### Vulnerability details
+### Vulnerability Details
 
 In an event if lender gets sanctioned, borrower can call `nukeFromOrbit()` to block him from interacting with market, which will transfer all of lender's market tokens to an escrow. Also if a lender tries to execute a withdrawal while being sanctioned, protocol will automatically block him and transfer all of his money to a newly created escrow. This functionality exists to ensure a sanctioned address won't poison everyone else. But in the current implementation if a lender gets sanctioned, borrower is able to steal all of his funds that are to be transferred to an escrow.
 
