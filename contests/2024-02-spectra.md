@@ -36,7 +36,9 @@ if (_owner != msg.sender) {
 The same can be said about every `withdraw` function. All of them call [\_beforeWithdraw()](https://github.com/code-423n4/2024-02-spectra/blob/383202d0b84985122fe1ba53cfbbb68f18ba3986/src/tokens/PrincipalToken.sol#L828-L842), which has the same check in place.
 
 As per EIP-5095 both `convertToUnderlying()` and `convertToPrincipal()` functions _MUST NOT revert unless due to integer overflow caused by an unreasonably large input_.
+
 In case of `convertToUnderlying()` function, it calls [\_convertSharesToIBTs()](https://github.com/code-423n4/2024-02-spectra/blob/383202d0b84985122fe1ba53cfbbb68f18ba3986/src/tokens/PrincipalToken.sol#L659-L672), which can revert with `RateError` when `ibtRate` is 0.
+
 In case of `convertToPrincipal()` function, it calls [\_convertIBTsToShares()](https://github.com/code-423n4/2024-02-spectra/blob/383202d0b84985122fe1ba53cfbbb68f18ba3986/src/tokens/PrincipalToken.sol#L680-L693), which can revert with `RateError` when `ptRate` is 0.
 
 As per EIP-5095 `maxWithdraw()` must not revert, but it can revert because of `whenNotPausedModifier` or because of the `RateError` mentioned above.
