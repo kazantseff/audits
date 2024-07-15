@@ -4,10 +4,10 @@ The code under review can be found in [2024-02-spectra](https://github.com/code-
 
 ## Findings Summary
 
-| ID       | Title                                                        | Severity |
-| -------- | ------------------------------------------------------------ | -------- |
-| [M-01]() | PrincipalToken does not comply with EIP5095                  | Medium   |
-| [L-01]() | Lack of `minAsset` check in `claimYield()` and `claimFees()` | Low      |
+| ID                                                                                                                                         | Title                                                        | Severity |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
+| [M-01](https://github.com/kazantseff/audits/blob/main/contests/2024-02-spectra.md#m-01-principaltoken-does-not-comply-with-eip5095)        | PrincipalToken does not comply with EIP5095                  | Medium   |
+| [L-01](https://github.com/kazantseff/audits/blob/main/contests/2024-02-spectra.md#l-01-lack-of-minasset-check-in-claimyield-and-claimfees) | Lack of `minAsset` check in `claimYield()` and `claimFees()` | Low      |
 
 ## [M-01] PrincipalToken does not comply with EIP5095
 
