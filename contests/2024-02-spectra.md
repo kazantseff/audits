@@ -56,6 +56,7 @@ Ensure that PrincipalToken is EIP-compliant. Alternatively, document that some f
 ### Vulnerability details
 
 `claimFees()` function allows the fee collector set by the protocol to claim fees in IBT.
+
 [PrincipalToken.sol#L329-L337](https://github.com/code-423n4/2024-02-spectra/blob/383202d0b84985122fe1ba53cfbbb68f18ba3986/src/tokens/PrincipalToken.sol#L329-L337)
 
 ```solidity
@@ -71,6 +72,7 @@ function claimFees() external override returns (uint256 assets) {
 ```
 
 `claimYield()` allows users to claim their yield in IBT.
+
 [PrincipalToken.sol#L369-L374](https://github.com/code-423n4/2024-02-spectra/blob/383202d0b84985122fe1ba53cfbbb68f18ba3986/src/tokens/PrincipalToken.sol#L369-L374)
 
 ```solidity
