@@ -4,12 +4,12 @@ The code under review can be found in [2023-12-ethereumcreditguild](https://gith
 
 ## Findings Summary
 
-| ID       | Title                                                                                                                     | Severity |
-| -------- | ------------------------------------------------------------------------------------------------------------------------- | -------- |
-| [H-01]() | If a user increments gaugeWeight after notifyPnL and profit disitribution, he will receive rewards he is not entitled to. | High     |
-| [H-02]() | If a after loss has occured user stakes his CREDIT in SurplusGuildMinter he will get unjustly slashed.                    | High     |
-| [M-01]() | Guild token can only store one ProfitManager.                                                                             | Medium   |
-| [M-02]() | There is no way to liquidate a position if it breaches maxDebtPerCollateralToken value creating bad debt.                 | Medium   |
+| ID                                                                                                                                                                                                                          | Title                                                                                                                     | Severity |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | -------- |
+| [H-01](https://github.com/kazantseff/audits/blob/main/contests/2023-12-ethereumcreditguild.md#h-01-if-a-user-increments-gaugeweight-after-notifypnl-and-profit-disitribution-he-will-receive-rewards-he-is-not-entitled-to) | If a user increments gaugeWeight after notifyPnL and profit disitribution, he will receive rewards he is not entitled to. | High     |
+| [H-02](https://github.com/kazantseff/audits/blob/main/contests/2023-12-ethereumcreditguild.md#h-02-if-a-after-loss-has-occured-user-stakes-his-credit-in-surplusguildminter-he-will-get-unjustly-slashed)                   | If a after loss has occured user stakes his CREDIT in SurplusGuildMinter he will get unjustly slashed.                    | High     |
+| [M-01](https://github.com/kazantseff/audits/blob/main/contests/2023-12-ethereumcreditguild.md#m-01-guild-token-can-only-store-one-profitmanager)                                                                            | Guild token can only store one ProfitManager.                                                                             | Medium   |
+| [M-02](https://github.com/kazantseff/audits/blob/main/contests/2023-12-ethereumcreditguild.md#m-02-there-is-no-way-to-liquidate-a-position-if-it-breaches-maxdebtpercollateraltoken-value-creating-bad-debt)                | There is no way to liquidate a position if it breaches maxDebtPerCollateralToken value creating bad debt.                 | Medium   |
 
 ## [H-01] If a user increments gaugeWeight after notifyPnL and profit disitribution, he will receive rewards he is not entitled to.
 
