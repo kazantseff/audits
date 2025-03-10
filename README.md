@@ -1,29 +1,15 @@
 # audits
 
-sl1's Portfolio
+sl1's Portfolio - https://audits.sherlock.xyz/watson/sl1
 
 | Overall        | High risk | Medium risk |
 | -------------- | --------- | ----------- |
-| 32 High/Medium | 19 High   | 13 Medium   |
+| 66 High/Medium | 33 High   | 33 Medium   |
 
 ## Audit Contests
 
-## <img src="https://code4rena.com/images/c4-logo-icon.svg" width=40 height=27> Code4rena
-
 |                                         Contest                                         | High risk | Medium risk | Ranking |                                         Security report                                          |
 | :-------------------------------------------------------------------------------------: | :-------: | :---------: | :-----: | :----------------------------------------------------------------------------------------------: |
-|                [Dopex](https://code4rena.com/contests/2023-08-dopex#top)                |     1     |      0      |    -    |        [Report](https://github.com/kazantseff/audits/blob/main/contests/2023-08-dopex.md)        |
-|           [Venus Prime](https://code4rena.com/audits/2023-09-venus-prime#top)           |     1     |      0      |    -    |        [Report](https://github.com/kazantseff/audits/blob/main/contests/2023-09-venus.md)        |
-|  [The Wildcat Protocol](https://code4rena.com/audits/2023-10-the-wildcat-protocol#top)  |     2     |      0      |    -    |       [Report](https://github.com/kazantseff/audits/blob/main/contests/2023-10-wildcat.md)       |
-|               [NextGen](https://code4rena.com/audits/2023-10-nextgen#top)               |     2     |      0      |    -    |                                         [Coming soon]()                                          |
-| [Ethereum Credit Guild](https://code4rena.com/audits/2023-12-ethereum-credit-guild#top) |     2     |      2      | 38/126  | [Report](https://github.com/kazantseff/audits/blob/main/contests/2023-12-ethereumcreditguild.md) |
-|                [Curves](https://code4rena.com/audits/2024-01-curves#top)                |     3     |      3      |    -    |                                         [Coming soon]()                                          |
-|              [Ai Arena](https://code4rena.com/audits/2024-02-ai-arena#top)              |     4     |      4      |    -    |                                         [Coming soon]()                                          |
-|               [Spectra](https://code4rena.com/audits/2024-02-spectra#top)               |     0     |      1      |  9/39   |       [Report](https://github.com/kazantseff/audits/blob/main/contests/2024-02-spectra.md)       |
-
-## <img src="https://audits.sherlock.xyz/_next/static/media/sherlock_logo.bf519c9e.svg" width=40 height=27> Sherlock
-
-|                         Contest                          | High risk | Medium risk | Ranking | Security report |
-| :------------------------------------------------------: | :-------: | :---------: | :-----: | :-------------: |
-|  [Iron Bank](https://audits.sherlock.xyz/contests/842)   |     0     |      2      |    -    |   [Report]()    |
-| [Axis Finance](https://audits.sherlock.xyz/contests/206) |     4     |      1      |  9/181  |   [Report]()    |
+|                          Axis-Finance                                                   |     4     |      1      |    9    | [report](https://audits.sherlock.xyz/contests/206)                                              |
+|                          Karak Restaking                                                |     2     |      1      |    4    | [report](https://code4rena.com/audits/2024-07-karak-restaking)                                  |
+|                          SecondSwap                                                     |     2     |      6      |    🥉   | [report](https://code4rena.com/audits/2024-12-secondswap)                                       |
